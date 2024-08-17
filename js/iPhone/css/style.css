@@ -1,0 +1,83 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.landing {
+  background-color: #09c;
+}
+.landing nav {
+  height: 70px;
+}
+.landing #active {
+  font-weight: bold;
+}
+.landing main {
+  height: calc(100vh - 70px);
+}
+.landing main .text {
+  max-width: 500px;
+}
+.landing main .text > a {
+  width: fit-content;
+  background-color: #0d6efd;
+}
+.landing main .image-holder {
+  width: 20%;
+}
+.landing main .galary img {
+  width: 35px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.landing main .galary img:hover {
+  transform: scale(1.2) translateY(-5px);
+}
+@media (max-width: 767px) {
+  .landing nav {
+    height: unset;
+  }
+  .landing nav > a {
+    font-size: 10px;
+  }
+  .landing nav ul li > a {
+    font-size: 14px;
+  }
+  .landing main {
+    row-gap: 50px;
+  }
+  .landing main .text {
+    font-size: 14px;
+  }
+  .landing main .text h1 {
+    font-size: 22px;
+  }
+  .landing main .image-holder {
+    width: 40%;
+  }
+}
+@media (max-width: 768px) {
+  .landing main .image-holder {
+    width: 30%;
+  }
+  .landing main .text h1 {
+    font-size: 27px;
+  }
+}
+@media (max-width: 1024px) {
+  .landing main .text {
+    width: 75%;
+  }
+  .landing main .galary img {
+    width: 25px;
+  }
+}
+@media (min-width: 1025px) {
+  .landing nav ul li > a {
+    font-size: 18px;
+  }
+}

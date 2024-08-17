@@ -1,0 +1,28 @@
+body { font-family: 'Open Sans', sans-serif;}
+.item {
+  cursor: pointer;
+}
+.text {
+  width: 80%;
+  left: 10%;
+  bottom: 10px;
+
+}
+#boxLight {
+  background-color: rgba(0 0 0 / 60%);
+  display: none;
+}
+.box-image {
+  height: 500px;
+  background-image: url("../imgs/asset7.jpeg");
+  background-size: cover;
+  background-position: center center;
+}
+.box-image i {
+  cursor: pointer;
+  color: black;
+}
+.x {
+  top : 18px;
+  right: 18px;
+}
