@@ -1,0 +1,66 @@
+.about-us-opining-content h3,
+.about-us-mid-content h3 {
+  color: #43121d;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.about-us-opining-content p,
+.about-us-mid-content p,
+.AboutUsEnding p {
+  color: #555;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+}
+
+.about-us-mid-content ul li i {
+  color: #a82d49 ;
+  width: 30px;
+  font-size: 20px;
+}
+
+.AboutUsEnding {
+  background-image: url('../../assets/section-background.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.AboutUsEnding h2 {
+  color: #a82d49;
+  font-weight: 700;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.1px;
+}
+
+.AboutUsEnding a {
+  background-color: rgba(238, 238, 238, 0.227);
+  transition: 0.3s;
+}
+
+.AboutUsEnding a:focus,
+.AboutUsEnding a:hover {
+  color: #a82d49;
+}
+
+@media (max-width: 767px) {
+  .about-us-opining-content,
+  .about-us-mid-content {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .about-us-opining-content h3,
+  .about-us-mid-content h3 {
+    font-size: 22px;
+  }
+  .AboutUsEnding h2 {
+    font-size: 29px;
+  }
+  .about-us-opining-content p,
+  .about-us-mid-content p {
+    font-size: 16px;
+  }
+}

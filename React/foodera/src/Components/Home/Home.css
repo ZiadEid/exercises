@@ -1,0 +1,26 @@
+.numbers {
+  background-color: #a82d49;
+  padding: 40px 0;
+}
+
+.numbers h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 10px;
+  color: #fff !important;
+}
+
+.numbers span {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .numbers {
+    padding: 120px 0px 80px;
+  }
+}

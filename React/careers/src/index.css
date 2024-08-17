@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+  --primary: #bc4123;
+  --secondary: #2b3452;
+}
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Poppins";
+  background: var(--secondary);
+}
+* {
+  color: #fff;
+  margin: 0;
+}
+p {
+  margin: 20px 0;
+}
+button {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  background: var(--primary);
+  cursor: pointer;
+}
+
+/* navbar */
+header nav {
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header nav h1 {
+  margin-right: auto;
+  border-bottom: 3px solid var(--primary);
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+header nav a.active {
+  background-color: var(--primary);
+}
+/* page content */
+.root-layout main {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+/* help layout */
+.help-layout nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 70px 0 40px;
+}
+
+.help-layout nav a {
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.help-layout nav a:hover {
+  border-color: var(--primary);
+}
+
+.help-layout nav a.active {
+  background-color: var(--primary);
+}
+/* faq */
+.faq .question {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+/* Contact */
+.contact form {
+  margin-top: 30px;
+}
+
+form input, form label span, form textarea {
+  display: block;
+}
+
+form input, form textarea {
+  margin-bottom: 30px;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  width: 300px;
+  color: var(--secondary);
+}
+
+form label span {
+  margin-bottom: 10px;
+}
+
+
+/* Not Found */
+.not-found a {
+  color: var(--primary);
+}
+
+/* careers list */
+.careers > a {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.careers > a:hover p {
+  color: var(--primary);
+}
+
+.careers p {
+  margin: 0;
+}
+
+.careers > a p:last-child {
+  font-size: 0.8em;
+  color: #bbb;
+}
+
+/* careers details */
+.career-details {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+/* careers error */
+.careers-error {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.careers-error a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+/* breadcrumbs */
+.breadcrumbs {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.breadcrumbs > * {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.breadcrumbs .crumb::after {
+  content: '>';
+  margin-left: 10px;
+}
+
+.breadcrumbs .crumb:last-child::after {
+  display: none;
+}
+
+.breadcrumbs .crumb a {
+  color: #ddd;
+}

@@ -1,0 +1,40 @@
+.Explore h2 {
+  color: #43121d;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.Explore p {
+  color: #555;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+}
+
+.Explore .item h4 {
+  font-size: 18px;
+}
+
+.Explore .item .price span {
+  color: #a82d49;
+  font-size: 24px;
+}
+
+.Explore .item .price .disc {
+  color: #999;
+}
+
+.Explore .item button {
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  .Explore p {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .Explore .item {
+    text-align: center !important;
+    margin-bottom: 40px;
+  }
+}
