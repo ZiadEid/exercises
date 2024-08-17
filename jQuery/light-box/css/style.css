@@ -1,0 +1,19 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background-color: #888;
+  color: #ddd;
+  width: 1px;
+  height: 5px;
+}
+h3 ,
+p ,
+.curosal ,
+.col-md-4 {
+  display: none;
+}
+.imgItem {
+  cursor: pointer;
+}
