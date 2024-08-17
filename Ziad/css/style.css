@@ -1,0 +1,142 @@
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar {
+
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+
+    width: 10%;
+    text-align: center;
+}
+
+.logo a {
+
+    color: tomato;
+}
+.navbar .nav {
+
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.nav a {
+
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.nav .active {
+
+    color: tomato;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav li:hover a {
+
+    color: tomato;
+}
+
+.header {
+
+    background-image: url('../imgs/slider-01.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: white;
+}
+
+.layer {
+    
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.header-content {
+
+    text-align: center;
+}
+
+.header h1 {
+
+    font-size: 70px;
+    font-weight: 900;
+    color: tomato;
+}
+
+.header h4 {
+
+    font-size: 23px;
+}
+
+.header p {
+
+    font-size: 25px;
+}
+
+.header p::after {
+
+    content: " |";
+    animation-name: typing;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+ 
+    0% { content: "e|";}
+    3% { content: "es|";}
+    6% { content: "esi|";}
+    9% { content: "esig|";}
+    12% { content: "esign|";}
+    15% { content: "esigne|";}
+    18% { content: "esigner|";}
+    21% { content: "esigner|";}
+    24% { content: "esigner|";}
+    27% { content: "esigne|";}
+    29% { content: "esign|";}
+    32% { content: "esig|";}
+    35% { content: "esi|";}
+    38% { content: "es|";}
+    41% { content: "e|";}
+    44% { content: "|";}
+    47% { content: "|";}
+    50% { content: "e|";}
+    53% { content: "ev|";}
+    56% { content: "eve|";}
+    59% { content: "evel|";}
+    62% { content: "evelo|";}
+    65% { content: "evelop|";}
+    68% { content: "evelope|";}
+    71% { content: "eveloper|";}
+    74% { content: "eveloper|";}
+    77% { content: "eveloper|";}
+    80% { content: "evelope|";}
+    83% { content: "evelop|";}
+    86% { content: "evelo|";}
+    89% { content: "evel|";}
+    92% { content: "eve|";}
+    95% { content: "ev|";}
+    98% { content: "e|";}
+    100% { content: "|";}
+}
