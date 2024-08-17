@@ -1,0 +1,41 @@
+.bg-perple {
+  background-image: linear-gradient(#4e4276, #573aba);
+}
+
+.bg-green {
+  background-image: linear-gradient(#697d34, #92c705);
+}
+
+.bg-orange {
+  background-image: linear-gradient(#ae6237, #ec6011);
+}
+
+.planCard .plan-card .price {
+  min-height: 220px;
+  top: -50px;
+  left: 0;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+}
+
+.planCard .plan-card .price p {
+  font-size: 20px;
+}
+
+.planCard .plan-card .price span {
+  font-size: 72px;
+}
+
+.planCard .plan-card ul {
+  margin-top: 150px;
+}
+
+.planCard .plan-card ul li span {
+  color: #808080;
+  font-size: 16px;
+}
+
+.planCard .plan-card button {
+  font-size: 20px;
+  background-color: #ec6011;
+  letter-spacing: 1px;
+}
